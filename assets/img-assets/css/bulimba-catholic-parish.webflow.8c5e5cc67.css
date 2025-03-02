@@ -6062,6 +6062,7 @@ blockquote {
   width: 30vw;
   position: sticky;
   overflow: hidden;
+  cursor: pointer;
 }
 
 .awards-recognition-section {
@@ -8940,7 +8941,7 @@ blockquote {
 .nav-sticky-bg {
   z-index: 991;
   background-color: var(--black);
-  height: 80px;
+  height: 100px;
   display: block;
   position: absolute;
   inset: 0%;
@@ -10952,6 +10953,7 @@ blockquote {
   flex-flow: column;
   display: flex;
   position: relative;
+  transform: translate(-9vw, 1vh);
 }
 
 .header-one {
@@ -10982,10 +10984,7 @@ blockquote {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1550px;
   height: 70px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
 }
 
@@ -15993,5 +15992,5 @@ body.dimmed {
 
 .logo-hero {
   position: relative;
-  left: -13%;
+  transform: translate(1vw, 1vh);
 }

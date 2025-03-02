@@ -55,7 +55,7 @@ const section2 = document.querySelector('.awards-recognition-section');
 
 // Define colours
 const colorStart = hexToRgb('#ffffff'); // White
-const colorEnd = hexToRgb('#f0eae1'); // Target colour
+const colorEnd = hexToRgb('#fffdfa'); // Target colour
 
 // Define the artificial extension (e.g., 40vh)
 const extensionHeight = window.innerHeight * 0.4; // 40% of viewport height

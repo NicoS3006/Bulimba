@@ -4190,7 +4190,7 @@ blockquote {
 }
 
 .result-driven-section {
-  padding-top: 105px;
+  padding-top: 250px;
   padding-bottom: 120px;
   overflow: hidden;
 }
@@ -4809,10 +4809,10 @@ blockquote {
 }
 
 .text-rotation-box {
-  background-image: url('../images/66a8d938f30dd6c0265cc48d_Flower-vector-2.svg');
+  background-image: url('/assets/img-assets2/Communion-Footer-Black.png');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 40%;
   width: 150px;
   height: 150px;
 }
@@ -8929,8 +8929,9 @@ blockquote {
 
 .nav-sticky-bg {
   z-index: 991;
-  background-color: var(--black);
-  height: 80px;
+  background-color: white !important;
+  opacity: 1 !important;
+  height: 100px;
   display: block;
   position: absolute;
   inset: 0%;
@@ -10908,7 +10909,7 @@ blockquote {
 }
 
 .hamburger-bar-two {
-  background-color: var(--white);
+  background-color: black;
   width: 15px;
   height: 2px;
 }
@@ -10922,7 +10923,7 @@ blockquote {
 
 .hamburger-bar-one,
 .hamburger-bar-three {
-  background-color: var(--white);
+  background-color: black;
   width: 30px;
   height: 2px;
 }
@@ -10942,6 +10943,7 @@ blockquote {
   flex-flow: column;
   display: flex;
   position: relative;
+  transform: translate(-9vw, 1vh);
 }
 
 .header-one {
@@ -10972,10 +10974,7 @@ blockquote {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1550px;
   height: 70px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
 }
 
@@ -16061,4 +16060,9 @@ blockquote {
   visibility: visible !important;
   height: auto !important;
   display: block !important;
+}
+
+.logo-hero {
+  position: relative;
+  transform: translate(1vw, 1vh);
 }

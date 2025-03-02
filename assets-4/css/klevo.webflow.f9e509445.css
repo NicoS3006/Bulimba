@@ -8923,13 +8923,13 @@ blockquote {
 
 .nav-sticky-bg {
   z-index: 991;
-  background-color: var(--black);
-  height: 80px;
+  background-color: var(--black) !important;
+  opacity: 0;
+  height: 100px;
   display: block;
   position: absolute;
   inset: 0%;
 }
-
 .logo-block {
   width: 100%;
   max-width: 106px;
@@ -10936,6 +10936,7 @@ blockquote {
   flex-flow: column;
   display: flex;
   position: relative;
+  transform: translate(-9vw, 1vh);
 }
 
 .header-one {
@@ -10966,13 +10967,9 @@ blockquote {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1550px;
   height: 70px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
 }
-
 .nav-dropdown-grid {
   grid-template-rows: auto;
   place-items: start;
@@ -15874,4 +15871,9 @@ blockquote {
   #w-node-_119961f6-3540-476b-c5ca-901601e134a9-c35f4ffd {
     grid-column: span 1 / span 1;
   }
+}
+
+.logo-hero {
+  position: relative;
+  transform: translate(1vw, 1vh);
 }

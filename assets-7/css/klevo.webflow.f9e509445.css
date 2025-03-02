@@ -4805,10 +4805,10 @@ blockquote {
 }
 
 .text-rotation-box {
-  background-image: url('../66a8d938f30dd6c0265cc48d_Flower-vector-2.svg');
+  background-image: url('/assets/img-assets2/Communion-Footer.png');
   background-position: 50%;
   background-repeat: no-repeat;
-  background-size: auto;
+  background-size: 40%;
   width: 150px;
   height: 150px;
 }
@@ -8928,7 +8928,7 @@ blockquote {
   z-index: 991;
   background-color: var(--black) !important;
   opacity: 1 !important;
-  height: 80px;
+  height: 100px;
   display: block;
   position: absolute;
   inset: 0%;
@@ -10931,13 +10931,14 @@ blockquote {
 }
 
 .hamburger {
-  z-index: 9999;
+  z-index: 99;
   grid-column-gap: 5px;
   grid-row-gap: 5px;
   cursor: pointer;
   flex-flow: column;
   display: flex;
   position: relative;
+  transform: translate(-9vw, 1vh);
 }
 
 .header-one {
@@ -10968,13 +10969,9 @@ blockquote {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1550px;
   height: 70px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
 }
-
 .nav-dropdown-grid {
   grid-template-rows: auto;
   place-items: start;
@@ -15876,4 +15873,9 @@ blockquote {
   #w-node-_119961f6-3540-476b-c5ca-901601e134a9-c35f4ffd {
     grid-column: span 1 / span 1;
   }
+}
+
+.logo-hero {
+  position: relative;
+  transform: translate(1vw, 1vh);
 }

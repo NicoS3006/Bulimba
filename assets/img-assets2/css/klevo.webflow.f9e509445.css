@@ -8929,7 +8929,7 @@ blockquote {
   z-index: 991;
   background-color: black !important;
   opacity: 1 !important;
-  height: 80px;
+  height: 100px;
   display: block;
   position: absolute;
   inset: 0%;
@@ -10941,8 +10941,8 @@ blockquote {
   flex-flow: column;
   display: flex;
   position: relative;
+  transform: translate(-9vw, 1vh);
 }
-
 .header-one {
   z-index: 999;
   background-color: #fff0;
@@ -10971,10 +10971,7 @@ blockquote {
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  max-width: 1550px;
   height: 70px;
-  margin-left: auto;
-  margin-right: auto;
   display: flex;
 }
 
@@ -15928,4 +15925,9 @@ blockquote {
 .footer-menu-link.padding-bottom-twenty {
   margin-bottom: 30px !important;
   padding-bottom: 0 !important;
+}
+
+.logo-hero {
+  position: relative;
+  transform: translate(1vw, 1vh);
 }
