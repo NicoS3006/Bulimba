@@ -15874,3 +15874,56 @@ blockquote {
   position: relative;
   transform: translate(1vw, 1vh);
 }
+/* Container size matching office hours */
+.contact-flocknote-section .container {
+  max-width: 736px; /* Match your Office Hours width (check your own value exactly if different) */
+  margin: 0 auto;
+  padding: 1rem;
+}
+
+/* Accordion button styling */
+.accordion {
+  background-color: #f1f1f1;
+  color: #333;
+  cursor: pointer;
+  padding: 1rem;
+  width: 100%;
+  text-align: left;
+  border: none;
+  outline: none;
+  font-size: 1.2rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  transition: background-color 0.2s ease;
+}
+
+.accordion:hover,
+.accordion.active {
+  background-color: #ddd;
+}
+
+.accordion-icon {
+  transition: transform 0.3s ease;
+}
+
+.accordion.active .accordion-icon {
+  transform: rotate(180deg);
+}
+
+/* Panel content */
+.panel {
+  padding: 0 1rem;
+  display: none;
+  background-color: white;
+  overflow: hidden;
+}
+
+.panel p, .panel ul {
+  margin: 1rem 0;
+}
+.flocknote-subtitle {
+  font-size: 1.1rem;
+  font-weight: 600;
+  margin-top: 1.5rem;
+}
