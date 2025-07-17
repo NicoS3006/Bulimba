@@ -15883,8 +15883,8 @@ blockquote {
 
 /* Accordion button styling */
 .accordion {
-  background-color: #f1f1f1;
-  color: #333;
+  background-color: var(--orange);
+  color: #ffffff;
   cursor: pointer;
   padding: 1rem;
   width: 100%;
@@ -15900,7 +15900,7 @@ blockquote {
 
 .accordion:hover,
 .accordion.active {
-  background-color: #ddd;
+  background-color: var(--orange);
 }
 
 .accordion-icon {
@@ -15927,3 +15927,8 @@ blockquote {
   font-weight: 600;
   margin-top: 1.5rem;
 }
+.blink-link {
+  animation: blinker 1s linear infinite;
+  color: #0056b3; /* adjust to your preferred link colour */
+}
+
