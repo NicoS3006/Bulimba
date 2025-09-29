@@ -12453,10 +12453,6 @@ blockquote {
     left: 0;
   }
 
-  .home-three-hero-section.bg-image {
-    padding-top: 110px;
-    padding-bottom: 100px;
-  }
 
   .counter-box-item.padding-top-sixty {
     padding-top: 0;
@@ -14116,9 +14112,7 @@ blockquote {
     margin-left: auto;
   }
 
-  .home-three-hero-section.bg-image {
-    padding-bottom: 60px;
-  }
+
 
   .snapshot-link-block {
     max-width: none;
@@ -15270,9 +15264,6 @@ blockquote {
     align-items: center;
   }
 
-  .home-three-hero-section.bg-image {
-    padding-bottom: 60px;
-  }
 
   .snapshot-link-block {
     width: 100%;
