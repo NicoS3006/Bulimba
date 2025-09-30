@@ -696,6 +696,21 @@
             Your browser does not support the video tag.
           </video>
           </div>
+          <script>
+  const video = document.getElementById('hero-video');
+  video.load();
+  // Start playing as soon as the browser can play the video without stalling
+  video.addEventListener('canplay', () => {
+    video.play().catch(err => {
+      console.log('Autoplay blocked:', err);
+    });
+  });
+
+  // Optional: log when playback starts
+  video.addEventListener('playing', () => {
+    console.log('Hero video started playing');
+  });
+</script>
         <div class="w-layout-hflex hero-scroll-block">
           <a href="#agency" class="scroll-block w-inline-block"
             ><div class="scroll-v-line"></div>
